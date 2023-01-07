@@ -1,0 +1,134 @@
+
+:root{
+    --primary-color: #1952b5;
+}
+body{
+    background-color: rgb(2, 1, 2);
+}
+
+
+h1{
+    
+    color: var(--primary-color);
+    text-shadow: 0.03rem 0.03rem bisque;;
+   
+}
+.container{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    
+}
+
+.description{
+    color: bisque;
+}
+
+.bill-amount{
+    font-weight: bold;
+    color: aliceblue;
+    
+}
+
+.cash-given{
+    color: aliceblue;
+    font-weight: bold;
+   
+}
+
+.change-table{
+    color: aliceblue;
+}
+input{
+    margin:0.5rem 0rem;
+    border-radius: 1rem;
+    border: 2px solid var(--primary-color);
+    padding: 0.5rem;
+}
+
+button{
+    cursor: pointer;
+    margin: 1rem 0rem;
+    border-radius: 100%;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    border: 1.8px solid var(--primary-color);
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+}
+
+button:hover{
+    
+    color: black;
+    background-color: rgb(219, 32, 32);
+}
+
+table {
+    display: table;
+    text-align: center;
+    margin: 0px;
+    border-collapse: collapse;
+    border-style: hidden;
+    border-radius: 1rem;
+    border: 2px solid #EC255A;
+    box-sizing: border-box;
+}
+
+table td {
+    padding: 0.5rem;
+    border: 2px solid var(--primary-color);
+}
+table th {
+    padding: 0.5rem;
+    border: 2px solid ForestGreen;
+}
+
+caption{
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    color: bisque;
+    
+}
+
+
+.footer{
+    padding: 2rem 1rem;
+    color: var(--primary-color);
+    text-align: center;
+    border-bottom-right-radius: 1rem;
+    margin-top: 5rem;
+}
+.footer .link{
+    color: var(--primary-color);
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+    color: beige;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.footer{
+    background-color: rgba(38, 64, 138, 0.404);
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
